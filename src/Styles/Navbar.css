@@ -177,6 +177,10 @@
     display: none;
   }
 
+   .dropdown{
+     left: 10%;
+  }
+
   .services-menu.open .dropdown {
     display: flex;
     position: relative;
@@ -187,7 +191,5 @@
   }
 
  
-  .dropdown{
-     left: 10%;
-  }
+ 
 }
