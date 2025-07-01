@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+
+// Pages
 import Home from "./Pages/Home";
 import Legal from "./Pages/Legal";
 import NotFound from "./Pages/NotFound";
@@ -8,12 +10,14 @@ import Appointment from "./Pages/Appointment";
 import ContactMap from "./Pages/ContactMap";
 import Booking from "./Pages/Booking";
 import Service1Page from "./Pages/Service1Page";
-import ScrollUpButton from "./Components/ScrollUpButton"; // ✅ Import it
+
+// Global Components
+import ScrollUpButton from "./Components/ScrollUpButton";
 
 function App() {
   return (
     <div className="App">
-      <Router basename="/Health-Plus">
+      <Router> {/* ✅ Removed basename */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/legal" element={<Legal />} />
@@ -24,7 +28,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
 
-        {/* ✅ Scroll Up Button shown on all pages */}
+        {/* Scroll to top button */}
         <ScrollUpButton />
       </Router>
     </div>
