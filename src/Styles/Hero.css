@@ -92,10 +92,11 @@
 @media screen and (max-width: 480px) {
   .hero-wrapper {
     padding: 20px;
-    height: auto;
+    height: 80vh;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+  
   }
 
   .hero-content {
