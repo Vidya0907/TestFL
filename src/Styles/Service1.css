@@ -9,9 +9,9 @@
   position: relative;
   background: url('../Assets/roof1.jpg') center/cover no-repeat;
   text-align: center;
-  padding: 80px 15px;
+  padding: 100px 15px;
   color: white;
-  margin: 20px auto;
+  margin: 30px auto;
   border-radius: 20px;
   width: 90%;
   max-width: 1200px;
@@ -133,7 +133,7 @@
 
 .roof-services-section {
   text-align: center;
-  padding: 4% 8%;
+  padding: 14% 8%;
   background: #e5dbce;
 }
 .roof-services-section h1{
@@ -160,11 +160,11 @@ font-weight: 600;
 
 .roof-services-list li {
   position: relative;
-  padding-left: 30px;
-  font-size: 18px;
+  padding-left: 4%;
+  font-size: 16px;
   font-weight: 500;
   color: #333;
-  width: fit-content; /* keeps list items snug */
+  width: fit-content;
 }
 
 .roof-services-list li::before {

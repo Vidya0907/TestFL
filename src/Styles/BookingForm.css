@@ -6,7 +6,7 @@
   justify-content: space-between;
   padding: 40px;
   width: 85%;
-  margin: auto;
+  margin: 10px auto;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
@@ -171,6 +171,7 @@
 }
 
 .booking-form .summary-box {
+  margin-top: -30px;
   background-color: #fff;
   padding: 20px;
   border-radius: 12px;
